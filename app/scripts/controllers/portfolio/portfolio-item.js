@@ -7,8 +7,8 @@
  * # PortfolioPortfolioItemCtrl
  * Controller of the modernbusinessApp
  */
-angular.module('modernbusinessApp')
-  .controller('PortfolioPortfolioItemCtrl', function ($scope) {
+angular.module('mbApp')
+  .controller('PortfolioItemCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

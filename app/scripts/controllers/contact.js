@@ -7,7 +7,7 @@
  * # ContactCtrl
  * Controller of the modernbusinessApp
  */
-angular.module('modernbusinessApp')
+angular.module('mbApp')
   .controller('ContactCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

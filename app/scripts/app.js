@@ -3,7 +3,7 @@
 'use strict';
 
 angular
-        .module('moderBusinessApp', [
+        .module('mbApp', [
                 'ngCookies',
                 'ngResource',
                 'ngSanitize',
@@ -51,7 +51,7 @@ angular
                 })
                 .when('/portfolio/portfolio-item', {
                 templateUrl: 'views/portfolio/portfolio-item.html',
-                        controller: 'PortfolioPortfolioItemCtrl'
+                        controller: 'PortfolioItemCtrl'
                 })
                 .when('/blog/blog-home-1', {
                 templateUrl: 'views/blog/blog-home-1.html',

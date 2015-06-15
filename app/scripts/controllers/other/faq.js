@@ -7,7 +7,7 @@
  * # OtherFaqCtrl
  * Controller of the modernbusinessApp
  */
-angular.module('modernbusinessApp')
+angular.module('mbApp')
   .controller('OtherFaqCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

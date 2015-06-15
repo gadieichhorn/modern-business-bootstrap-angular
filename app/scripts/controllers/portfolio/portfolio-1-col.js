@@ -1,3 +1,5 @@
+/* global angular */
+
 'use strict';
 
 /**
@@ -7,6 +9,11 @@
  * # PortfolioPortfolio1ColCtrl
  * Controller of the modernbusinessApp
  */
-angular.module('modernbusinessApp')
-  .controller('PortfolioPortfolio1ColCtrl', function ($scope) {
-  });
+angular.module('mbApp')
+        .controller('PortfolioPortfolio1ColCtrl', function ($scope) {
+            $scope.awesomeThings = [
+                'HTML5 Boilerplate',
+                'AngularJS',
+                'Karma'
+            ];
+        });

@@ -7,7 +7,7 @@
  * # Other404Ctrl
  * Controller of the modernbusinessApp
  */
-angular.module('modernbusinessApp')
+angular.module('mbApp')
   .controller('Other404Ctrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

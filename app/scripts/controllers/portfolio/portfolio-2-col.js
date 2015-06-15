@@ -7,7 +7,7 @@
  * # PortfolioPortfolio2ColCtrl
  * Controller of the modernbusinessApp
  */
-angular.module('modernbusinessApp')
+angular.module('mbApp')
   .controller('PortfolioPortfolio2ColCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
