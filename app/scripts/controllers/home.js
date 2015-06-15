@@ -8,10 +8,7 @@
  * Controller of the modernbusinessApp
  */
 angular.module('mbApp')
-  .controller('HomeCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+        .controller('HomeCtrl', function ($scope) {
+
+
+        });
